@@ -10,7 +10,7 @@ $(document).ready(function() {
 		console.log(snapshot.val());
 		clicks1 = snapshot.val();
 		$('#clicks1').text(clicks1);
-		if (clicks1 > 15) {
+		if (clicks1 > 500) {
 			$("#winner").show();
 			fbRef.child('winner').set(true);
 		}
@@ -20,7 +20,7 @@ $(document).ready(function() {
 		console.log(snapshot.val());
 		clicks2 = snapshot.val();
 		$('#clicks2').text(clicks2);
-		if (clicks2 > 15) {
+		if (clicks2 > 500) {
 			$("#winner2").show();
 			fbRef.child('winner').set(true);
 		}
