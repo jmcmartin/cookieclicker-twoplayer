@@ -22,8 +22,52 @@ h2 {
 
 #winner {
 	display: none;
+	font-family: cursive;
 }
 
 #winner2 {
 	display: none;
+	font-family: cursive;
+}
+
+button {
+	width: 150px;
+	height: 100px;
+	background-color: blue;
+	margin-top: 20px;
+	margin-right: 19px;
+}
+
+body {
+    background-image: url(images/dark_embroidery.jpg)
+}
+
+#clicks1 {
+	font-family: sans-serif;
+	color: red;
+}
+
+#clicks2 {
+	font-family: sans-serif;
+	color: red;
+}
+
+#hi1 {
+	color: blue;
+	margin-bottom: 20px;
+}
+
+#hi2 {
+	color: blue;
+	margin-bottom: 20px;
+}
+
+.intro {
+	color: red;
+	margin-bottom: 20px;
+}
+
+* {
+	text-align: center;
+	margin: auto;
 }

@@ -62,6 +62,7 @@ $(document).ready(function() {
 		$("#winner").hide();
 		$("#hi2").hide();
 		$("#winner2").hide();
+		$(".intro").hide();
 	});
 
 	$('#2player').click(function() {
@@ -74,6 +75,7 @@ $(document).ready(function() {
 		$("#winner").hide();
 		$("#hi1").hide();
 		$("#winner2").hide();
+		$(".intro").hide();
 	});
 
 });
